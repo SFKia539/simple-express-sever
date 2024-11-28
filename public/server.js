@@ -10,7 +10,7 @@ app.use("/", (req, res) => res.sendFile(path.join(__dirname, "about.html")));
 
 app.use("/", (req, res) => res.sendFile(path.join(__dirname, "404.html")));
 
-const PORT = process.env.port || 4000;
-app.listen(4000, () => {
+const PORT = process.env.port || 3000;
+app.listen(3000, () => {
   console.log(`serversrunning localhost:${PORT}`);
 });
