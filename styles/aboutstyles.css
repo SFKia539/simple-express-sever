@@ -1,0 +1,56 @@
+/* About Section Styling */
+.about {
+  padding: 40px 20px;
+  background-color: #111;
+  color: #ddd;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-family: "Star Jedi", sans-serif; /* Use the same font as the homepage */
+}
+
+.about p {
+  font-size: 1.2em;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.about .history,
+.about .cultural-impact,
+.about .the-legacy {
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #222;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+.about h3 {
+  font-size: 2em;
+  margin-bottom: 15px;
+  color: #ffd700; /* Gold accent */
+}
+
+.about .history p,
+.about .cultural-impact p,
+.about .the-legacy p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  margin-top: 10px;
+}
+
+/* Footer Styling (for consistency) */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: #ddd;
+  font-size: 1em;
+}
+
+footer p {
+  margin: 10px 0;
+}
